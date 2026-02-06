@@ -1,0 +1,5 @@
+python - << 'EOF'
+from werkzeug.security import generate_password_hash
+print(generate_password_hash("adminpassword"))
+print(generate_password_hash("userpassword"))
+EOF
