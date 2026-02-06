@@ -1,0 +1,13 @@
+[Unit]
+Description=Le Potato Controlboard + Proxy
+After=network.target
+
+[Service]
+Type=simple
+User=joel
+WorkingDirectory=/home/joel/lepotato-appliance
+ExecStart=/home/joel/lepotato-appliance/autostart.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
