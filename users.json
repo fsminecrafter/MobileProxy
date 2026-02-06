@@ -1,0 +1,10 @@
+{
+  "admin": {
+    "password": "pbkdf2:sha256:260000$examplehash",
+    "role": "admin"
+  },
+  "user": {
+    "password": "pbkdf2:sha256:260000$examplehash",
+    "role": "user"
+  }
+}
